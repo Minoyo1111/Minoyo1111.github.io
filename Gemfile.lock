@@ -3,6 +3,7 @@ GEM
   specs:
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
+    agency-jekyll-theme (1.0.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.7)
     em-websocket (0.5.2)
@@ -66,9 +67,11 @@ GEM
     unicode-display_width (1.7.0)
 
 PLATFORMS
+  ruby
   x86_64-darwin-19
 
 DEPENDENCIES
+  agency-jekyll-theme
   jekyll (~> 4.2.0)
   jekyll-feed (~> 0.12)
   minima (~> 2.5)
